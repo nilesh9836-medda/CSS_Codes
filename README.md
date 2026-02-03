@@ -1,5 +1,5 @@
 # Welcome in CSS_Codes repo
 
-## Project Lists:
+## Project Lists
 
-1. **Cafe Menu** ( for beginners ) | [*view html code*](./htmls/cafeMenu-webpage.html) | [*view css code*](./style/cafeMenu-style.css) |
+1. **Cafe Menu Webpage** ( for beginners ) | [*view html code*](./src/Cafe%20Menu/index.html) | [*view css code*](./src/Cafe%20Menu/style.css)
