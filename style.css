@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://pixabay.com/get/gaa1a65f81f082d391d4def0be5e5466faa73ec58a03d06d550ac363c8adb77c0be56d6ea69a4eb5a0198c348de72e5e3dea8c60ea2604d9d5be5fc1d7ea16b13_1920.jpg);
+}
+
+section h2 {
+    color: aqua;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: aqua;
+}
