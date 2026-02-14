@@ -1,6 +1,6 @@
 # Chapter 01: Getting started with CSS
 
-- ## 1.1: External Stylesheet
+- ## External Stylesheet
 
     **HTML5**
 
@@ -37,7 +37,7 @@
 
 ---
 
-- ## 1.2: Internal Styles
+- ## Internal Styles
 
     **HTML5**
 
@@ -70,7 +70,7 @@
 
 ---
 
-- ## 1.3: CSS @import rule
+- ## CSS @import rule
 
     **HTML5**
 
@@ -100,7 +100,7 @@
 
 ---
 
-- ## 1.4: Inline Styles
+- ## Inline Styles
 
     **HTML5**
 
@@ -127,7 +127,7 @@
 
 ---
 
-- ## 1.5: Styling Lists with CSS
+- ## Styling Lists with CSS
 
     **HTML5**
 
@@ -162,3 +162,22 @@
     ```
 
     *[Click here to see the output](./list_style.html)*
+
+- ## Property Lists
+
+    **CSS**
+
+    ```css
+    span {
+        text-shadow: yellow 0 0 3px, green 4px 4px 10px;
+    }
+    ```
+
+    *[Click here to see the output](./01property-list.html)*
+
+- ## Selectors
+
+    **CSS**
+
+    ```css
+    
