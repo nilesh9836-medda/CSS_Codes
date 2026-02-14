@@ -175,9 +175,19 @@
 
     *[Click here to see the output](./01property-list.html)*
 
-- ## Selectors
+- ## Selectors and Comments in CSS
 
     **CSS**
 
     ```css
-    
+    /* First comment*/
+
+    .first, .blue, #two, div {  /* Multiple Selectors */
+        color: palevioletred;
+    }
+    h2 {
+        color:deeppink;
+    }
+    ```
+
+    *[Click here to see the output](./02selectors.html)*
