@@ -1,4 +1,6 @@
-.first, .blue, #two, div {
+/* First comment*/
+
+.first, .blue, #two, div {  /* Multiple Selectors */
     color: palevioletred;
 }
 h2 {
