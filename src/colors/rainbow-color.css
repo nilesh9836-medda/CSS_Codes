@@ -1,0 +1,33 @@
+h2 {
+    text-decoration: underline;
+}
+#rainbow div{
+    background-color: white;
+}
+#rainbow p {
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+#rainbow .one {
+    background-color: violet;
+}
+#rainbow .two {
+    background-color: blue;
+}
+#rainbow .three {
+    background-color: indigo;
+}
+#rainbow .four {
+    background-color: green;
+}
+#rainbow .five {
+    background-color: yellow;
+}
+#rainbow .six {
+    background-color: orange;
+}
+#rainbow .sev {
+    background-color: red;
+}
