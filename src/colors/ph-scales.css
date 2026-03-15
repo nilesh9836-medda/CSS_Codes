@@ -1,0 +1,54 @@
+.scale div {
+  width: 50px;
+  height: 100px;
+  text-align: center;
+}
+div.scale {
+  display: flex;
+}
+.scale .a {
+  background-color: red;
+}
+.scale .b {
+  background-color: tomato;
+}
+.scale .c {
+  background-color: orange;
+}
+.scale .d {
+  background-color: darkorange;
+}
+.scale .e {
+  background-color: goldenrod;
+}
+.scale .f {
+  background-color: greenyellow;
+}
+.scale .g {
+  background-color: lightgreen;
+}
+.scale .h {
+  background-color: green;
+}
+.scale .i {
+  background-color:darkgreen;
+}
+.scale .j {
+  background-color: cyan;
+}
+.scale .k {
+  background-color: teal;
+}
+.scale .l {
+  background-color: blue;
+}
+.scale .m {
+  background-color: darkblue;
+}
+.scale .n {
+  background-color: darkorchid;
+}
+.scale .o {
+  background-color: blueviolet;
+}
+
