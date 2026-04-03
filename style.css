@@ -1,5 +1,5 @@
 body {
-    background-image: url(./assets/image/css_code_background.jpg);
+    /*background-image: url(./assets/image/css_code_background.jpg);*/
 }
 
 section h2 {
@@ -9,5 +9,5 @@ a {
     color: black;
 }
 a:hover {
-    color: aqua;
+    color: violet;
 }
