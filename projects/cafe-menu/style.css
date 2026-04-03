@@ -22,13 +22,14 @@ h1, h2, p {
   text-align: center;
 }
 
-.menu {
+div.menu {
+  max-width: 400px;
   width: 80%;
   background-color: burlywood;
   margin-left: auto;
   margin-right: auto;
-  padding: 20 px;
-  max-width: 500 px;
+  padding: 20px;
+  
 }
 
 img {
