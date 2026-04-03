@@ -1,0 +1,18 @@
+section#background div {
+    padding: 5px 15px;
+    width: 50px;
+    text-align: center;
+    display: inline-flex;
+}
+div.hex {
+    background-color: #de1025;
+}
+div.rgb {
+    background-color: rgba(0%,0%,100%,0.5);
+}
+div.hsl {
+    background-color: hsla(120,100%,30%,0.5);
+}
+div.color-name {
+    background-color: grey;
+}
