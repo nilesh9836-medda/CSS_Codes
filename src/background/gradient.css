@@ -1,0 +1,35 @@
+section#grad div {
+    height: 30px;
+    width: 750px;
+}
+div.linear-grd {
+    background: linear-gradient(to left,red,blue);
+}
+div.d-linear-grd {
+    background: linear-gradient(to left top, red, yellow);
+}
+div.d-linear-grd-ex {
+    background: linear-gradient(to left top, red, yellow 10%);
+}
+div.rainbow-grd {
+    background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+}
+div.ph-grd {
+    background: linear-gradient(to left, blue, green, red);
+}
+section#rad-grad div {
+    height: 150px;
+    width: 150px;
+}
+div.rad-grd {
+    background: radial-gradient(red, blue);
+}
+div.cor-rad-grd {
+    background: radial-gradient(circle farthest-corner at top left, red, blue);
+}
+div.bullseye {
+    background: repeating-radial-gradient(red, red 10%, white 10%, white 20%);
+}
+div.warning {
+    background: repeating-radial-gradient(-45deg, yellow, yellow 10%, black 10%, black 20%);
+}
