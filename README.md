@@ -1,11 +1,15 @@
 # CSS Codes
 
-- ## 📚 Contents
+## 📚 Contents
 
-    1. **[Getting started with CSS](./src/01getting-started/README.md)**
+    - **[All CSS Styles](./allcss.html)**
 
 ---
 
-- ## Projects
+## Projects
 
-    1. **[Cafe Menu Webpage](./projects/cafe-menu/index.html)** ( for beginners )
+    1. **[Cafe Menu Webpage](./projects/cafe-menu/index.html)**
+
+    2. **[Business Card](./projects/business-card/index.html)**
+
+    3. **[Conference Form](./projects/conference-form/index.html)**
