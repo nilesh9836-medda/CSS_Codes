@@ -1,0 +1,35 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+}
+#email {
+	padding: 50px;
+	margin: 50px auto;
+	width: 500px;
+	border: 2px solid black;
+	background-color: seashell;
+	box-sizing: border-box;
+	box-shadow: 5px 3px 3px gray;
+}
+#confidential,#top-secret {
+	color: red;
+	border: 5px solid red;
+	display: inline-block;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+.blurred {
+	font-weight: bold;
+	filter: blur(3px);
+}
+#confidential {
+	transform: rotate(-20deg);
+	margin-left: 100px;
+}
+#top-secret {
+	transform: rotate(10deg);
+	margin-left: 200px;
+}
