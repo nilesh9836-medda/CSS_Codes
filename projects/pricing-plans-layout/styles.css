@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.pricing-container {
+  margin: auto;
+  border: 2px solid black;
+  width: 70%;
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.pricing-card {
+  border: 2px solid black;
+  width: 200px;
+  box-sizing: border-box;
+  margin: 0 10px 20px;
+  display: flex;
+  flex: 0 0 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 0 auto 20px;
+  padding: 0 15px;
+  font-size: 1.5rem;
+  color: hsla(0,0%,30%);
+  border-bottom: 1px solid hsla(0,0%,30%);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  list-style: none;
+  gap: 10px;
+}
+
+li {
+  position: relative;
+  padding-left: 15px;
+  left: -15px;
+}
+
+li.tik::marker {
+  content: '\2713';
+  color: green;
+}
+
+li:not(.tik)::marker {
+  content: '\2718';
+  color: red;
+}
+
+button {
+  background: gold;
+  border: 0;
+  width: 160px;
+  font-weight: bold;
+  font-size: 1.01rem;
+  font-family: initial;
+  padding: 7px 0;
+  margin-top: 20px
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  transition-timing-function: linear;
+}
+
+button:hover {
+  background: goldenrod;
+}
+
+.basic-plan {
+  order: 0;
+  background: whitesmoke;
+}
+
+.pro-plan {
+  order: 1;
+  flex-grow: 2;
+  background: #DEF3FF;
+}
+
+.premium-plan {
+  order: 2;
+  background: whitesmoke;
+}
