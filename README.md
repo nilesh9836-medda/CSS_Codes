@@ -23,5 +23,6 @@
 13. **[Design a Set of Colorful Boxes](./projects/colorful-boxes/index.html)**
 14. **[Design a Pricing Plans Layout Page](./projects/pricing-plans-layout/index.html)**
 15. **[Build a Nutrition Label](./projects/nutrition-label/index.html)**
-16. **[Build a Newspaper Article](./projects/newspaper-article/index.html)**
-17. **[Build a Quiz Webpage](./projects/quiz-webpage/index.html)**
+16. **[Build a Page of Playing Cards](./projects/playing-cards/index.html)**
+17. **[Build a Newspaper Article](./projects/newspaper-article/index.html)**
+18. **[Build a Quiz Webpage](./projects/quiz-webpage/index.html)**
