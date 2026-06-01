@@ -1,0 +1,45 @@
+#flex-prop {
+  width: 90%;
+  margin: 20px auto;
+  background-color: hsl(0,0%,15%);
+  color: black;
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+.prop {
+  flex: 0 0 150px;
+  height: 120px;
+  margin: 10px;
+  border-radius: 5px;
+  order: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.bar-red {
+  background-color: red;
+  order: 1;
+  flex-shrink: 3;
+}
+
+.bar-green {
+  background-color: green;
+  order: 2;
+  flex-grow: 1;
+}
+.bar-blue {
+  background-color: blue;
+  order: 0;
+}
+
+.bar-yellow {
+  background-color: yellow;
+  order: 3;
+  flex-grow: 3;
+}
