@@ -1,5 +1,7 @@
 body {
     /*background-image: url(./assets/image/css_code_background.jpg);*/
+    box-sizing: border-box;
+    height: 100vh;
 }
 
 section h2 {
