@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A Technical Documentation Page on Kotlin</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="content">
+            <nav id="navbar">
+                <header>Kotlin Documentation</header>
+                <ul id="nav-ul">
+                    <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+                    <li><a href="#History" class="nav-link">History</a></li>
+                    <li><a href="#Design" class="nav-link">Design</a></li>
+                    <li><a href="#Syntax" class="nav-link">Syntax</a></li>
+                    <li><a href="#Tools" class="nav-link">Tools</a></li>
+                    <li><a href="#Application" class="nav-link">Application</a></li>
+                    <li><a href="#Reference" class="nav-link">Reference</a></li>
+                </ul>
+            </nav>
+            <main id="main-doc">
+                <section class="main-section" id="Introduction">
+                    <header>Introduction</header>
+                    <p>
+                        Kotlin (/ˈkɒtlɪn/)[2] is a cross-platform, statically typed, general-purpose high-level programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise. Kotlin mainly targets the JVM, but also compiles to JavaScript (e.g., for frontend web applications using React)[3] or native code via LLVM (e.g., for native iOS apps sharing business logic with Android apps).[4] Language development costs are borne by JetBrains, while the Kotlin Foundation protects the Kotlin trademark.[5] 
+                    </p>
+                    <p>
+                        On 7 May 2019, Google announced that the Kotlin programming language had become its preferred language for Android app developers.[6] Since the release of Android Studio 3.0 in October 2017, Kotlin has been included as an alternative to the standard Java compiler. The Android Kotlin compiler emits Java 8 bytecode by default (which runs in any later JVM), but allows targeting Java 9 up to 20, for optimizing,[7] or allows for more features; has bidirectional record class interoperability support for JVM, introduced in Java 16, considered stable as of Kotlin 1.5.
+                    </p>
+                    <p>
+                        Kotlin has support for the web with Kotlin/JS, through an intermediate representation-based backend which has been declared stable since version 1.8, released December 2022. Kotlin/Native (for e.g. Apple silicon support) has been declared stable since version 1.9.20, released November 2023.
+                    </p>
+                </section>
+                <section class="main-section" id="History">
+                    <header>History</header>
+                    <p>
+                        The name is derived from Kotlin Island, a Russian island in the Gulf of Finland, near Saint Petersburg. Andrey Breslav, Kotlin's former lead designer, mentioned that the team decided to name it after an island, in imitation of the Java programming language which shares a name with the Indonesian island of Java.
+                    </p>
+                    <ul>
+                        <li>In July 2011, JetBrains unveiled Project Kotlin, a new language for the JVM, which had been under development for a year.[11] JetBrains lead Dmitry Jemerov said that most languages did not have the features they were looking for, with the exception of Scala. However, he cited the slow compilation time of Scala as a deficiency.[11] One of the stated goals of Kotlin is to compile as quickly as Java. In February 2012, JetBrains open sourced the project under the Apache 2 license.</li>
+                        <li>JetBrains hoped that the new language would drive IntelliJ IDEA sales.</li>
+                        <li>The first commit to the Kotlin Git repository was on November 8, 2010.</li>
+                        <li>Kotlin 1.0 was released on February 15, 2016.[15] This is considered to be the first officially stable release and JetBrains has committed to long-term backwards compatibility starting with this version. </li>
+                        <li>At Google I/O 2017, Google announced first-class support for Kotlin on Android.</li>
+                        <li>Kotlin 1.2 was released on November 28, 2017.[17] Sharing code between JVM and JavaScript platforms feature was newly added to this release (multiplatform programming is by now a beta feature[18] upgraded from "experimental"). A full-stack demo has been made with the new Kotlin/JS Gradle Plugin.</li>
+                        <li>Kotlin 1.3 was released on 29 October 2018, adding support for coroutines for use with asynchronous programming.</li>
+                        <li>On 7 May 2019, Google announced that the Kotlin programming language is now its preferred language for Android app developers.</li>
+                        <li>Kotlin 1.4 was released in August 2020, with e.g. some slight changes to the support for Apple's platforms, i.e. to the Objective-C/Swift interop.</li>
+                        <li>Kotlin 1.5 was released in May 2021. </li>
+                        <li>Kotlin 1.6 was released in November 2021. </li>
+                        <li>Kotlin 1.7 was released in June 2022, including the alpha version of the new Kotlin K2 compiler.</li>
+                        <li>Kotlin 1.8 was released in December 2022, 1.8.0 was released on January 11, 2023.</li>
+                        <li>Kotlin 1.9 was released in July 2023, 1.9.0 was released on July 6, 2023.</li>
+                        <li>Kotlin 2.0 was released in May 2024, 2.0.0 was released on May 21, 2024.</li>
+                    </ul>
+                </section>
+                <section class="main-section" id="Design">
+                    <header>Design</header>
+                    <p>
+                        Development lead Andrey Breslav has said that Kotlin is designed to be an industrial-strength object-oriented language, and a "better language" than Java, but still be fully interoperable with Java code, allowing companies to make a gradual migration from Java to Kotlin.
+                    </p>
+                    <p>
+                        Borrowing from Scala, semicolons are optional as a statement terminator; in most cases a newline is sufficient for the compiler to deduce that the statement has ended.
+                    </p>
+                    <p>
+                        Borrowing from Scala, Kotlin variable declarations and parameter lists have the data type come after the variable name (and with a colon separator), similar to Ada, BASIC, Pascal, TypeScript and Rust. This, according to an article from Roman Elizarov, current project lead, results in alignment of variable names and is more pleasing to eyes, especially when there are a few variable declarations in succession, and one or more of the types is too complex for type inference, or needs to be declared explicitly for human readers to understand.
+                    </p>
+                    <p>
+                        Borrowing from Scala, variables in Kotlin can be read-only, declared with the val keyword, or mutable, declared with the var keyword.
+                    </p>
+                    <p>
+                        Borrowing from Scala, class members are public by default, and classes themselves are final by default, meaning that creating a derived class is disabled unless the base class is declared with the open keyword. 
+                    </p>
+                    <p>
+                        In addition to the classes and member functions (which are equivalent to methods) of object-oriented programming, Kotlin also supports procedural programming with the use of functions.[32] Kotlin functions and constructors support default arguments, variable-length argument lists, named arguments, and overloading by unique signature. Class member functions are virtual, i.e. dispatched based on the runtime type of the object they are called on. 
+                    </p>
+                    <p>
+                        Kotlin 1.3 added support for contracts,[33] which are stable for the standard library declarations, but still experimental for user-defined declarations. Contracts are inspired by Eiffel's design by contract programming paradigm. 
+                    </p>
+                </section>
+                <section class="main-section" id="Syntax">
+                    <header>Syntax</header>
+                    <p>Kotlin relaxes Java's restriction of allowing static methods and variables to exist only within a class body. Static objects and functions can be defined at the top level of the package without needing a redundant class level. For compatibility with Java, Kotlin provides a JvmName annotation which specifies a class name used when the package is viewed from a Java project. For example, @file:JvmName("JavaClassName").
+                    </p>
+                    <p>
+                        As in C, C++, C#, Java, and Go, the entry point to a Kotlin program is a function named "main", which may be passed an array containing any command-line arguments. This is optional since Kotlin 1.3.[36] Perl, PHP, and Unix shell–style string interpolation is supported. Type inference is also supported.
+                    </p>
+                    <pre>
+                        <code>
+
+// Hello, World! example
+fun main() {
+    val scope = "World"
+    println("Hello, $scope!")
+}
+
+fun main(args: Array<String>) {
+    for (arg in args)
+        println(arg)
+}
+
+                        </code>
+                    </pre>
+                    <p>
+                        Similar to C#, Kotlin allows adding an extension function to any class without the formalities of creating a derived class with new functions. An extension function has access to all the public interface of a class, which it can use to create a new function interface to a target class. An extension function will appear exactly like a function of the class and will be shown in code completion inspection of class functions. For example:
+                    </p>
+                    <pre>
+                        <code>
+package MyStringExtensions
+
+fun String.lastChar(): Char = get(length - 1)
+
+>>> println("Kotlin".lastChar())
+                        </code>
+                    </pre>
+                    <p>By placing the preceding code in the top-level of a package, the String class is extended to include a lastChar function that was not included in the original definition of the String class.
+                    </p>
+                    <pre>
+                        <code>
+// Overloading '+' operator using an extension function
+operator fun Point.plus(other: Point): Point {
+    return Point(x + other.x, y + other.y)
+}
+
+>>> val p1 = Point(10, 20)
+>>> val p2 = Point(30, 40)
+>>> println(p1 + p2)
+Point(x=40, y=60)
+                        </code>
+                    </pre>
+                    <p>
+                        Kotlin has five scope functions, which allow the changing of scope within the context of an object. The scope functions are let, run, with, apply, and also.
+                    </p>
+                    <p>
+                        Kotlin allows local functions to be declared inside of other functions or methods. 
+                    </p>
+                    <pre>
+                        <code>
+class User(val id: Int, val name: String, val address: String)
+
+fun saveUserToDb(user: User) {
+    fun validate(user: User, value: String, fieldName: String) {
+        require(value.isNotEmpty()) { "Can't save user ${user.id}: empty $fieldName" }
+    }
+    
+    validate(user, user.name, "Name") 
+    validate(user, user.address, "Address")
+    // Save user to the database 
+    ...
+}
+                        </code>
+                    </pre>
+                    <p>
+                        In Kotlin, to derive a new class from a base class type, the base class needs to be explicitly marked as "open". This is in contrast to most object-oriented languages such as Java where classes are open by default. Example of a base class that is open to deriving a new subclass from it: 
+                    </p>
+                    <pre>
+                        <code>
+// open on the class means this class will allow derived classes
+open class MegaButton {
+
+    // no-open on a function means that 
+    //    polymorphic behavior disabled if function overridden in derived class
+    fun disable() { ... }
+
+    // open on a function means that
+    //    polymorphic behavior allowed if function is overridden in derived class
+    open fun animate() { ... }
+}
+
+class GigaButton: MegaButton() {
+
+    // Explicit use of override keyword required to override a function in derived class
+    override fun animate() { println("Giga Click!") } 
+}
+                        </code>
+                    </pre>
+                </section>
+                <section class="main-section" id="Tools">
+                    <header>Tools</header>
+                    <ul>
+                        <li>
+                            Android Studio (based on IntelliJ IDEA) has official support for Kotlin, starting from Android Studio 3.
+                        </li>
+                        <li>
+                            Integration with common Java build tools is supported, including Apache Maven,[40] Apache Ant,[41] and Gradle.
+                        </li>
+                        <li>
+                            Emacs has a Kotlin Mode in its MELPA package repository.
+                        </li>
+                        <li>
+                            JetBrains also provides a plugin for Eclipse.
+                        </li>
+                        <li>
+                            IntelliJ IDEA has plug-in support for Kotlin.[45] IntelliJ IDEA 15 was the first version to bundle the Kotlin plugin in the IntelliJ Installer, and to provide Kotlin support out of the box.
+                        </li>
+                        <li>
+                            Gradle: Kotlin has seamless integration with Gradle, which is a popular build automation tool. Gradle allows you to build, automate, and manage the lifecycle of your Kotlin projects efficiently.
+                        </li>
+                    </ul>
+                </section>
+                <section class="main-section" id="Application">
+                    <header>Application</header>
+                    <p>
+                        When Kotlin was announced as an official Android development language at Google I/O in May 2017, it became the third language fully supported for Android, after Java and C++.[48] As of 2020, Kotlin is the most widely used language on Android, with Google estimating that 70% of the top 1,000 apps on the Play Store are written in Kotlin. Google itself has 60 apps written in Kotlin, including Maps and Drive. Many Android apps, such as Google Home, are in the process of being migrated to Kotlin, and therefore use both Kotlin and Java. Kotlin on Android is seen as beneficial for its null-pointer safety, as well as for its features that make for shorter, more readable code.
+                    </p>
+                    <p>
+                        In addition to its prominent use on Android, Kotlin is gaining traction in server-side development. The Spring Framework officially added Kotlin support with version 5, on 4 January 2017.[50] To further support Kotlin, Spring has translated all its documentation to Kotlin, and added built-in support for many Kotlin-specific features such as coroutines.[51] In addition to Spring, JetBrains has produced a Kotlin-first framework called Ktor for building web applications.
+                    </p>
+                    <p>
+                        In 2020, JetBrains found in a survey of developers who use Kotlin that 56% were using Kotlin for mobile apps, while 47% were using it for a web back-end. Just over a third of all Kotlin developers said that they were migrating to Kotlin from another language. Most Kotlin users were targeting Android (or otherwise on the JVM), with only 6% using Kotlin Native.
+                    </p>
+                </section>
+                <section class="main-section" id="Reference">
+                    <header>Reference</header>
+                    <ul>
+                        <li>
+                            All the documentation in this page is taken from <a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)" target="_blank" rel="noopener">Wikipedia</a>
+                        </li>
+                    </ul>
+                </section>
+
+
+            </main>
+        </div>
+    </body>
+</html>
