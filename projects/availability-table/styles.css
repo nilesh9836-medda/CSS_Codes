@@ -1,0 +1,133 @@
+:root {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  --color0: hsl(120,100%,100%);
+  --color1: hsl(120,100%,90%);
+  --color2: hsl(120,100%,80%);
+  --color3: hsl(120,100%,60%);
+  --color4: hsl(120,100%,40%);
+  --color5: hsl(120,100%,20%);
+  --blck: #000;
+  --solid-border: 1px solid black;
+  --dashed-border: 1px dashed black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(150, 30%, 75%);
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 40rem;
+}
+
+tbody > tr:nth-child(1) > td {
+  border-top: 1px solid black;
+}
+
+tbody > tr:first-child > th {
+  position: relative;
+  top: -1rem;
+}
+
+tbody > tr:last-child > th {
+  position: relative;
+  bottom: -1rem;
+}
+
+tr {
+  height: 2rem;
+}
+
+td {
+  border-left: var(--solid-border);
+  border-right: var(--solid-border);
+}
+
+td.available-0 {
+  background-color: var(--color0);
+}
+
+td.available-1 {
+  background-color: var(--color1);
+}
+
+td.available-2 {
+  background-color: var(--color2);
+}
+
+td.available-3 {
+  background-color: var(--color3);
+}
+
+td.available-4 {
+  background-color: var(--color4);
+}
+
+td.available-5 {
+  background-color: var(--color5);
+}
+
+tr.half td {
+  border-bottom: var(--dashed-border);
+}
+
+tr.sharp td {
+  border-bottom: var(--solid-border);
+}
+
+th.time {
+  text-align: right;
+  border: 0;
+  padding: 0.4rem;
+}
+
+#legend {
+  text-align: center;
+  width: 200px;
+}
+
+#legend-gradient {
+  background: linear-gradient(to right,
+    var(--color0) 0% 17%,
+    var(--color1) 18% 34%,
+    var(--color2) 35% 51%,
+    var(--color3) 52% 68%,
+    var(--color4) 69% 85%,
+    var(--color5) 86% 100%
+  );
+  width: 100px;
+  height: 25px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+#legend-gradient > span:nth-child(1) {
+  position: relative;
+  left: -55%;
+  top: 25%;
+}
+
+#legend-gradient > span:nth-child(2) {
+  position: relative;
+  right: -62%;
+  top: 25%;
+}
