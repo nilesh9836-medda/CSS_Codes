@@ -1,0 +1,104 @@
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  padding: 20px 15px;
+}
+
+h1, h2, h3 {
+  margin: 20px auto;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  margin: auto;
+}
+
+figure {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.newspaper-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-areas: 
+    "title title title"
+    "feature-article feature-article cover-image"
+    "secondary-article secondary-article cover-image"
+    "small-article1 small-article2 small-article3";
+}
+
+.title {
+    grid-area: title;
+  background-color: darkblue;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.feature-article {
+    grid-area: feature-article;
+}
+
+.secondary-article {
+    grid-area: secondary-article;
+}
+
+.cover-image {
+    grid-area: cover-image;
+  
+}
+
+.small-article1 {
+  grid-area: small-article1;
+  background-color: silver;
+  padding: 10px;
+}
+
+.small-article2 {
+    grid-area: small-article2;
+  background-color: silver;
+  padding: 10px;
+}
+
+.small-article3 {
+    grid-area: small-article3;
+  background-color: silver;
+  padding: 10px;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+p {
+  text-align: justify;
+  font-size: 1.5rem;
+}
