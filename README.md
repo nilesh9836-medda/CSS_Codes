@@ -37,3 +37,4 @@
 27. **[Build an Availability Table](/projects/availability-table/)**
 28. **[Build a Magazine](/projects/magazine/)**
 29. **[Design a Newspaper Layout](/projects/newspaper-layout/)**
+30. **[Build an Animated Ferris Wheel](/projects/animated-ferris-wheel/)**
