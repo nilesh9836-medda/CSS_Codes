@@ -17,6 +17,8 @@
                     <img src="https://www.image2url.com/r2/default/images/1783146435058-47c1a449-1e4f-4779-960d-cffdcbc0d0ae.png" alt="NEXTH">
                 </a>
 
+                <button id="hamburger"></button>
+
                 <ul class="nav-menu">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#features">Features</a></li>
@@ -34,24 +36,63 @@
 
             <!--HERO SECTION-->
             <section class="hero" id="home">
-                <h5 class="small-tag">New Arrival</h5>
+                <div class="hero-content">
+                    <span class="tag">New Arrival</span>
 
-                <h2 class="main-heading">
-                    The Future<br>On Your Wrist
-                </h2>
+                    <h2 class="main-heading">
+                        The Future<br>On Your Wrist
+                    </h2>
 
-                <p class="description">
-                    Experience premium craftsmanship, advanced health tracking, and all-day battery life in one elegant smartwatch. Designed to keep up with your lifestyle.
-                </p>
+                    <p class="description">
+                        Experience premium craftsmanship, advanced health tracking, and all-day battery life in one elegant smartwatch. Designed to keep up with your lifestyle.
+                    </p>
 
-                <div class="buttons">
-                    <a href="#buy-now" class="buy-now-btn">Buy Now</a>
-                    <a href="#features" class="explore-features">Explore Features</a>
+                    <h3>NEXTH Smartwatch</h3>
+                    <p class="price-tag">
+                        <span class="price">Price:</span>
+                        <span class="value">8,999</span>
+                    </p>
+
+                    <div class="availability">
+                        <p>Available Colours</p>
+                        <ul>
+                            <li class="black"></li>
+                            <li class="blue"></li>
+                            <li class="white"></li>
+                        </ul>
+                    </div>
+
+                    <div class="buttons">
+                        <a href="#buy-now" class="buy-now-btn">Buy Now</a>
+                        <a href="#features" class="explore-features">Explore Features</a>
+                    </div>
                 </div>
 
-                <figure class="product-image">
+                <figure class="hero-image">
                     <img src="https://www.image2url.com/r2/default/images/image-to-webp-1783107619199-fcf92a1f-4a42-4013-8ac6-8598d8c21d9f.webp" alt="Futuristic and stylist wristwatch of NEXTH">
                 </figure>
+            </section>
+
+            <!--Statistics Section-->
+            <section class="statistics">
+                <table>
+                    <tr>
+                        <td>50K+</td>
+                        <td>Happy Customers</td>
+                    </tr>
+                    <tr>
+                        <td>10 Days</td>
+                        <td>Battery Life</td>
+                    </tr>
+                    <tr>
+                        <td>100+</td>
+                        <td>Sports Modes</td>
+                    </tr>
+                    <tr>
+                        <td>4.9⭐</td>
+                        <td>Average Rating</td>
+                    </tr>
+                </table>
             </section>
 
             <!--TRUSTED BY SECTION-->
@@ -79,48 +120,50 @@
             <section class="features" id="features">
                 <h2>Why Choose NEXTH?</h2>
 
-                <div class="card">
+                <div class="grid-card">
+                    <div class="card">
 
-                    <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 11.9999H17.1986C16.3689 11.9999 15.9541 11.9999 15.6102 12.1946C15.2664 12.3893 15.0529 12.745 14.6261 13.4564L14.5952 13.5079C14.1976 14.1706 13.9987 14.502 13.7095 14.4965C13.4202 14.4911 13.2339 14.1525 12.8615 13.4753L11.1742 10.4075C10.8269 9.77606 10.6533 9.46034 10.3759 9.44537C10.0986 9.43039 9.892 9.72558 9.47875 10.3159L9.19573 10.7203C8.75681 11.3473 8.53734 11.6608 8.21173 11.8303C7.88612 11.9999 7.50342 11.9999 6.73803 11.9999H6" stroke="#bf4040" stroke-width="1.5" stroke-linecap="round"></path> <path d="M8.96173 18.9108L9.42605 18.3219L8.96173 18.9108ZM12 5.5006L11.4596 6.0207C11.601 6.1676 11.7961 6.2506 12 6.2506C12.2039 6.2506 12.399 6.1676 12.5404 6.0207L12 5.5006ZM15.0383 18.9109L15.5026 19.4999V19.4999L15.0383 18.9109ZM12 20.4859L12 19.7359L12 20.4859ZM2.65666 13.3964C2.87558 13.748 3.33811 13.8556 3.68974 13.6367C4.04137 13.4178 4.14895 12.9552 3.93003 12.6036L2.65666 13.3964ZM6.52969 15.7718C6.23645 15.4793 5.76158 15.4798 5.46903 15.7731C5.17649 16.0663 5.17706 16.5412 5.47031 16.8337L6.52969 15.7718ZM2.75 9.13707C2.75 6.33419 4.00722 4.59507 5.57921 3.99711C7.15546 3.39753 9.35129 3.8302 11.4596 6.0207L12.5404 4.9805C10.1489 2.49583 7.3447 1.72069 5.04591 2.59512C2.74286 3.47116 1.25 5.88785 1.25 9.13707H2.75ZM15.5026 19.4999C16.9949 18.3234 18.7837 16.7461 20.2061 14.9838C21.6126 13.2412 22.75 11.2089 22.75 9.13703H21.25C21.25 10.688 20.3777 12.3829 19.0389 14.0417C17.716 15.6807 16.0239 17.1788 14.574 18.3219L15.5026 19.4999ZM22.75 9.13703C22.75 5.88784 21.2571 3.47115 18.9541 2.59511C16.6553 1.7207 13.8511 2.49583 11.4596 4.9805L12.5404 6.0207C14.6487 3.8302 16.8445 3.39753 18.4208 3.99711C19.9928 4.59506 21.25 6.33418 21.25 9.13703H22.75ZM8.49742 19.4998C9.77172 20.5044 10.6501 21.2359 12 21.2359L12 19.7359C11.2693 19.7359 10.8157 19.4174 9.42605 18.3219L8.49742 19.4998ZM14.574 18.3219C13.1843 19.4174 12.7307 19.7359 12 19.7359L12 21.2359C13.3499 21.2359 14.2283 20.5044 15.5026 19.4999L14.574 18.3219ZM3.93003 12.6036C3.18403 11.4054 2.75 10.2312 2.75 9.13707H1.25C1.25 10.617 1.83054 12.0695 2.65666 13.3964L3.93003 12.6036ZM9.42605 18.3219C8.50908 17.599 7.49093 16.7307 6.52969 15.7718L5.47031 16.8337C6.48347 17.8445 7.54819 18.7515 8.49742 19.4998L9.42605 18.3219Z" fill="#bf4040"></path> </g></svg>
+                        <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 11.9999H17.1986C16.3689 11.9999 15.9541 11.9999 15.6102 12.1946C15.2664 12.3893 15.0529 12.745 14.6261 13.4564L14.5952 13.5079C14.1976 14.1706 13.9987 14.502 13.7095 14.4965C13.4202 14.4911 13.2339 14.1525 12.8615 13.4753L11.1742 10.4075C10.8269 9.77606 10.6533 9.46034 10.3759 9.44537C10.0986 9.43039 9.892 9.72558 9.47875 10.3159L9.19573 10.7203C8.75681 11.3473 8.53734 11.6608 8.21173 11.8303C7.88612 11.9999 7.50342 11.9999 6.73803 11.9999H6" stroke="#bf4040" stroke-width="1.5" stroke-linecap="round"></path> <path d="M8.96173 18.9108L9.42605 18.3219L8.96173 18.9108ZM12 5.5006L11.4596 6.0207C11.601 6.1676 11.7961 6.2506 12 6.2506C12.2039 6.2506 12.399 6.1676 12.5404 6.0207L12 5.5006ZM15.0383 18.9109L15.5026 19.4999V19.4999L15.0383 18.9109ZM12 20.4859L12 19.7359L12 20.4859ZM2.65666 13.3964C2.87558 13.748 3.33811 13.8556 3.68974 13.6367C4.04137 13.4178 4.14895 12.9552 3.93003 12.6036L2.65666 13.3964ZM6.52969 15.7718C6.23645 15.4793 5.76158 15.4798 5.46903 15.7731C5.17649 16.0663 5.17706 16.5412 5.47031 16.8337L6.52969 15.7718ZM2.75 9.13707C2.75 6.33419 4.00722 4.59507 5.57921 3.99711C7.15546 3.39753 9.35129 3.8302 11.4596 6.0207L12.5404 4.9805C10.1489 2.49583 7.3447 1.72069 5.04591 2.59512C2.74286 3.47116 1.25 5.88785 1.25 9.13707H2.75ZM15.5026 19.4999C16.9949 18.3234 18.7837 16.7461 20.2061 14.9838C21.6126 13.2412 22.75 11.2089 22.75 9.13703H21.25C21.25 10.688 20.3777 12.3829 19.0389 14.0417C17.716 15.6807 16.0239 17.1788 14.574 18.3219L15.5026 19.4999ZM22.75 9.13703C22.75 5.88784 21.2571 3.47115 18.9541 2.59511C16.6553 1.7207 13.8511 2.49583 11.4596 4.9805L12.5404 6.0207C14.6487 3.8302 16.8445 3.39753 18.4208 3.99711C19.9928 4.59506 21.25 6.33418 21.25 9.13703H22.75ZM8.49742 19.4998C9.77172 20.5044 10.6501 21.2359 12 21.2359L12 19.7359C11.2693 19.7359 10.8157 19.4174 9.42605 18.3219L8.49742 19.4998ZM14.574 18.3219C13.1843 19.4174 12.7307 19.7359 12 19.7359L12 21.2359C13.3499 21.2359 14.2283 20.5044 15.5026 19.4999L14.574 18.3219ZM3.93003 12.6036C3.18403 11.4054 2.75 10.2312 2.75 9.13707H1.25C1.25 10.617 1.83054 12.0695 2.65666 13.3964L3.93003 12.6036ZM9.42605 18.3219C8.50908 17.599 7.49093 16.7307 6.52969 15.7718L5.47031 16.8337C6.48347 17.8445 7.54819 18.7515 8.49742 19.4998L9.42605 18.3219Z" fill="#bf4040"></path> </g></svg>
 
-                    <h4 class="card-name">24/7 Heart Rate Monitoring</h4>
-                    <p class="text">Monitor your heart continuously with medical-grade accuracy.</p>
-                </div>
+                        <h4 class="card-name">24/7 Heart Rate Monitoring</h4>
+                        <p class="text">Monitor your heart continuously with medical-grade accuracy.</p>
+                    </div>
 
-                <div class="card">
+                    <div class="card">
 
-                    <svg width="64px" height="64px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M366.31713 744.766507h524.451937l-21.246617-303.632256c-0.003197 0-401.128207-0.147058-503.20532 303.632256z" fill="#5FCEFF"></path><path d="M943.262215 744.766507v159.84515h-863.16381v-159.84515h800.088914z" fill="#8B87C1"></path><path d="M240.774749 499.8198c56.968811 0 103.16406 46.163279 103.16406 103.13209s-46.195248 103.16406-103.16406 103.16406-103.132091-46.195248-103.13209-103.16406 46.163279-103.132091 103.13209-103.13209z" fill="#FFB578"></path><path d="M80.098405 986.676157a22.378321 22.378321 0 0 1-22.378321-22.378321v-529.183353a22.378321 22.378321 0 1 1 44.756642 0v529.183353a22.378321 22.378321 0 0 1-22.378321 22.378321zM943.259018 986.676157a22.378321 22.378321 0 0 1-22.378321-22.378321v-305.400143a22.378321 22.378321 0 1 1 44.756642 0v305.400143c0 12.362424-10.015897 22.378321-22.378321 22.378321z" fill="#4F46A3"></path><path d="M943.259018 767.148025h-863.16381a22.378321 22.378321 0 1 1 0-44.756642h863.16381a22.378321 22.378321 0 1 1 0 44.756642z" fill="#4F46A3"></path><path d="M240.774749 728.494271c-69.206556 0-125.510412-56.316643-125.510411-125.542381 0-69.203359 56.303856-125.510412 125.510411-125.510411 69.222541 0 125.542381 56.303856 125.542381 125.510411 0 69.225738-56.31984 125.542381-125.542381 125.542381z m0-206.29615c-44.526465 0-80.75377 36.224108-80.753769 80.753769 0 44.545646 36.227305 80.785739 80.753769 80.785739 44.545646 0 80.785739-36.240092 80.785739-80.785739 0-44.529662-36.240092-80.75377-80.785739-80.753769zM371.879742 766.7612a22.378321 22.378321 0 0 1-22.378322-22.378321c0-82.607974 58.106909-166.216578 159.419962-229.390578 102.352046-63.819775 234.201917-98.966526 371.265937-98.966526a22.378321 22.378321 0 1 1 0 44.756642c-128.803222 0-252.242041 32.739484-347.586476 92.185895-87.918029 54.817296-138.34278 124.589704-138.34278 191.41137a22.378321 22.378321 0 0 1-22.378321 22.381518z" fill="#4F46A3"></path><path d="M880.187319 767.148025a22.378321 22.378321 0 0 1-22.378321-22.378321v-306.362411a22.378321 22.378321 0 1 1 44.756642 0v306.362411a22.378321 22.378321 0 0 1-22.378321 22.378321zM477.665262 429.487934h-167.837408a22.378321 22.378321 0 0 1-12.317667-41.061023l105.552146-69.58379H309.827854a22.378321 22.378321 0 1 1 0-44.756642h167.837408a22.378321 22.378321 0 0 1 12.317667 41.061022l-105.552146 69.583791h93.234479a22.378321 22.378321 0 1 1 0 44.756642zM636.612082 205.704724h-103.004215a22.378321 22.378321 0 0 1-12.31447-41.061023l40.71256-26.841197h-28.39809a22.378321 22.378321 0 1 1 0-44.756642h103.004215a22.378321 22.378321 0 0 1 12.31447 41.061022l-40.712559 26.841198h28.398089a22.378321 22.378321 0 1 1 0 44.756642zM868.38755 136.491774h-87.0197a22.378321 22.378321 0 0 1-12.31447-41.061023l24.715257-16.28822h-12.400787a22.378321 22.378321 0 1 1 0-44.756642h87.0197a22.378321 22.378321 0 0 1 12.31447 41.061022l-24.715257 16.288221h12.400787a22.378321 22.378321 0 1 1 0 44.756642zM943.259018 926.993175h-863.16381a22.378321 22.378321 0 1 1 0-44.756642h863.16381a22.378321 22.378321 0 1 1 0 44.756642z" fill="#4F46A3"></path></g></svg>
+                        <svg width="64px" height="64px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M366.31713 744.766507h524.451937l-21.246617-303.632256c-0.003197 0-401.128207-0.147058-503.20532 303.632256z" fill="#5FCEFF"></path><path d="M943.262215 744.766507v159.84515h-863.16381v-159.84515h800.088914z" fill="#8B87C1"></path><path d="M240.774749 499.8198c56.968811 0 103.16406 46.163279 103.16406 103.13209s-46.195248 103.16406-103.16406 103.16406-103.132091-46.195248-103.13209-103.16406 46.163279-103.132091 103.13209-103.13209z" fill="#FFB578"></path><path d="M80.098405 986.676157a22.378321 22.378321 0 0 1-22.378321-22.378321v-529.183353a22.378321 22.378321 0 1 1 44.756642 0v529.183353a22.378321 22.378321 0 0 1-22.378321 22.378321zM943.259018 986.676157a22.378321 22.378321 0 0 1-22.378321-22.378321v-305.400143a22.378321 22.378321 0 1 1 44.756642 0v305.400143c0 12.362424-10.015897 22.378321-22.378321 22.378321z" fill="#4F46A3"></path><path d="M943.259018 767.148025h-863.16381a22.378321 22.378321 0 1 1 0-44.756642h863.16381a22.378321 22.378321 0 1 1 0 44.756642z" fill="#4F46A3"></path><path d="M240.774749 728.494271c-69.206556 0-125.510412-56.316643-125.510411-125.542381 0-69.203359 56.303856-125.510412 125.510411-125.510411 69.222541 0 125.542381 56.303856 125.542381 125.510411 0 69.225738-56.31984 125.542381-125.542381 125.542381z m0-206.29615c-44.526465 0-80.75377 36.224108-80.753769 80.753769 0 44.545646 36.227305 80.785739 80.753769 80.785739 44.545646 0 80.785739-36.240092 80.785739-80.785739 0-44.529662-36.240092-80.75377-80.785739-80.753769zM371.879742 766.7612a22.378321 22.378321 0 0 1-22.378322-22.378321c0-82.607974 58.106909-166.216578 159.419962-229.390578 102.352046-63.819775 234.201917-98.966526 371.265937-98.966526a22.378321 22.378321 0 1 1 0 44.756642c-128.803222 0-252.242041 32.739484-347.586476 92.185895-87.918029 54.817296-138.34278 124.589704-138.34278 191.41137a22.378321 22.378321 0 0 1-22.378321 22.381518z" fill="#4F46A3"></path><path d="M880.187319 767.148025a22.378321 22.378321 0 0 1-22.378321-22.378321v-306.362411a22.378321 22.378321 0 1 1 44.756642 0v306.362411a22.378321 22.378321 0 0 1-22.378321 22.378321zM477.665262 429.487934h-167.837408a22.378321 22.378321 0 0 1-12.317667-41.061023l105.552146-69.58379H309.827854a22.378321 22.378321 0 1 1 0-44.756642h167.837408a22.378321 22.378321 0 0 1 12.317667 41.061022l-105.552146 69.583791h93.234479a22.378321 22.378321 0 1 1 0 44.756642zM636.612082 205.704724h-103.004215a22.378321 22.378321 0 0 1-12.31447-41.061023l40.71256-26.841197h-28.39809a22.378321 22.378321 0 1 1 0-44.756642h103.004215a22.378321 22.378321 0 0 1 12.31447 41.061022l-40.712559 26.841198h28.398089a22.378321 22.378321 0 1 1 0 44.756642zM868.38755 136.491774h-87.0197a22.378321 22.378321 0 0 1-12.31447-41.061023l24.715257-16.28822h-12.400787a22.378321 22.378321 0 1 1 0-44.756642h87.0197a22.378321 22.378321 0 0 1 12.31447 41.061022l-24.715257 16.288221h12.400787a22.378321 22.378321 0 1 1 0 44.756642zM943.259018 926.993175h-863.16381a22.378321 22.378321 0 1 1 0-44.756642h863.16381a22.378321 22.378321 0 1 1 0 44.756642z" fill="#4F46A3"></path></g></svg>
 
-                    <h4 class="card-name">Sleep Tracking</h4>
-                    <p class="text">Understand your sleep quality and improve your daily recovery.</p>
-                </div>
-                <div class="card">
+                        <h4 class="card-name">Sleep Tracking</h4>
+                        <p class="text">Understand your sleep quality and improve your daily recovery.</p>
+                    </div>
+                    <div class="card">
 
-                    <svg height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.161 512.161" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g transform="translate(-1)"> <path style="fill:#EF6E35;" d="M506.812,112.745l-1.298-1.298c-8.667-8.667-22.72-8.667-31.387,0L426.4,159.684 c-5.97,6.025-15.634,6.245-21.861,0.494L337.605,98.39c-4.791-4.425-11.081-6.885-17.609-6.885H220.43l-84.206,79.945 c-8.594,8.603-9.966,22.857-1.673,31.753c9.097,9.755,24.11,9.353,32.713-0.046l62.309-65.938h45.714L119.859,310.934H29.984 c-14.848,0-28.169,11.127-28.946,25.957c-0.823,15.817,11.758,28.901,27.392,28.901h128l72.192-77.056l64.951,67.913 l-17.481,111.579c-3.072,12.901,2.853,26.798,14.949,32.219c16.274,7.296,34.24-2.185,38.089-18.661l28.443-152.567l-82.395-82.286 l73.253-73.143l48.503,48.503c8.558,8.558,22.437,8.558,30.994,0l21.074-21.074l57.801-57.801 C515.278,134.953,515.278,121.22,506.812,112.745"></path> <path style="fill:#EF6E35;" d="M458.146,54.936c0-25.243-20.471-45.714-45.714-45.714c-25.243,0-45.714,20.471-45.714,45.714 s20.471,45.714,45.714,45.714C437.675,100.65,458.146,80.18,458.146,54.936"></path> </g> </g></svg>
+                        <svg height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.161 512.161" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g transform="translate(-1)"> <path style="fill:#EF6E35;" d="M506.812,112.745l-1.298-1.298c-8.667-8.667-22.72-8.667-31.387,0L426.4,159.684 c-5.97,6.025-15.634,6.245-21.861,0.494L337.605,98.39c-4.791-4.425-11.081-6.885-17.609-6.885H220.43l-84.206,79.945 c-8.594,8.603-9.966,22.857-1.673,31.753c9.097,9.755,24.11,9.353,32.713-0.046l62.309-65.938h45.714L119.859,310.934H29.984 c-14.848,0-28.169,11.127-28.946,25.957c-0.823,15.817,11.758,28.901,27.392,28.901h128l72.192-77.056l64.951,67.913 l-17.481,111.579c-3.072,12.901,2.853,26.798,14.949,32.219c16.274,7.296,34.24-2.185,38.089-18.661l28.443-152.567l-82.395-82.286 l73.253-73.143l48.503,48.503c8.558,8.558,22.437,8.558,30.994,0l21.074-21.074l57.801-57.801 C515.278,134.953,515.278,121.22,506.812,112.745"></path> <path style="fill:#EF6E35;" d="M458.146,54.936c0-25.243-20.471-45.714-45.714-45.714c-25.243,0-45.714,20.471-45.714,45.714 s20.471,45.714,45.714,45.714C437.675,100.65,458.146,80.18,458.146,54.936"></path> </g> </g></svg>
 
-                    <h4 class="card-name">Fitness Modes</h4>
-                    <p class="text">100+ workout modes for every lifestyle.</p>
-                </div>
-                <div class="card">
+                        <h4 class="card-name">Fitness Modes</h4>
+                        <p class="text">100+ workout modes for every lifestyle.</p>
+                    </div>
+                    <div class="card">
 
-                    <svg version="1.1" id="_x35_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" width="64px" height="64px" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path style="opacity:0.09;fill:#26a269;" d="M91.512,420.464v85.317c0,3.401,2.783,6.184,6.184,6.184h316.608 c3.401,0,6.184-2.783,6.184-6.184V91.488L91.512,420.464z"></path> <g> <path style="opacity:0.8;fill:#26a269;" d="M420.457,46.9v458.886c0,3.448-2.759,6.207-6.131,6.207H97.674 c-3.372,0-6.131-2.759-6.131-6.207V46.9c0-3.449,2.759-6.207,6.131-6.207h68.051V6.207c0-3.372,2.759-6.207,6.207-6.207h168.136 c3.449,0,6.207,2.835,6.207,6.207v34.485h68.051C417.699,40.693,420.457,43.451,420.457,46.9z"></path> <rect x="124.657" y="337.884" style="opacity:0.9;fill:#26a269;" width="262.686" height="147.377"></rect> <polygon style="fill:#FFFFFF;" points="207.805,147.876 317.749,149.381 271.058,232.212 328.287,229.196 190.029,393.062 228.887,277.391 183.714,275.887 "></polygon> <path style="opacity:0.09;fill:#26a269;" d="M91.512,420.499v85.317c0,3.401,2.783,6.184,6.184,6.184h316.608 c3.401,0,6.184-2.783,6.184-6.184V91.522L91.512,420.499z"></path> </g> </g> </g></svg>
+                        <svg version="1.1" id="_x35_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" width="64px" height="64px" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path style="opacity:0.09;fill:#26a269;" d="M91.512,420.464v85.317c0,3.401,2.783,6.184,6.184,6.184h316.608 c3.401,0,6.184-2.783,6.184-6.184V91.488L91.512,420.464z"></path> <g> <path style="opacity:0.8;fill:#26a269;" d="M420.457,46.9v458.886c0,3.448-2.759,6.207-6.131,6.207H97.674 c-3.372,0-6.131-2.759-6.131-6.207V46.9c0-3.449,2.759-6.207,6.131-6.207h68.051V6.207c0-3.372,2.759-6.207,6.207-6.207h168.136 c3.449,0,6.207,2.835,6.207,6.207v34.485h68.051C417.699,40.693,420.457,43.451,420.457,46.9z"></path> <rect x="124.657" y="337.884" style="opacity:0.9;fill:#26a269;" width="262.686" height="147.377"></rect> <polygon style="fill:#FFFFFF;" points="207.805,147.876 317.749,149.381 271.058,232.212 328.287,229.196 190.029,393.062 228.887,277.391 183.714,275.887 "></polygon> <path style="opacity:0.09;fill:#26a269;" d="M91.512,420.499v85.317c0,3.401,2.783,6.184,6.184,6.184h316.608 c3.401,0,6.184-2.783,6.184-6.184V91.522L91.512,420.499z"></path> </g> </g> </g></svg>
 
-                    <h4 class="card-name">10-Day Battery</h4>
-                    <p class="text">Go longer without charging.</p>
-                </div>
-                <div class="card">
+                        <h4 class="card-name">10-Day Battery</h4>
+                        <p class="text">Go longer without charging.</p>
+                    </div>
+                    <div class="card">
 
-                    <svg height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.002 512.002" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#CFDBE6;" cx="256.001" cy="256" r="256"></circle> <path style="fill:#B8C9D9;" d="M512.001,256c0-1.641-0.031-3.277-0.062-4.911l-86.874-86.874l-4.098,6.785l-37.397-37.397 l-0.771,1.14l-35.821-35.821L195.924,206.583l-95.525,65.407l53.064,52.627l-14.284,12.303l30.163,30.163l-30.163,31.035 l113.845,113.845c0.993,0.012,1.984,0.038,2.981,0.038C397.385,512,512.001,397.384,512.001,256z"></path> <path style="fill:#FFFFFF;" d="M245.971,221.324c-27.641,0-50.048-22.407-50.048-50.048s22.407-50.048,50.048-50.048 c6.301,0,12.324,1.176,17.877,3.301c4.961-22.421,24.943-39.195,48.855-39.195c23.59,0,43.356,16.327,48.647,38.293 c15.222,0.733,27.76,11.667,30.944,26.114c1.257-0.133,2.531-0.205,3.824-0.205c19.823,0,35.893,16.07,35.893,35.893 s-16.07,35.893-35.893,35.893L245.971,221.324z"></path> <path style="fill:#E6F3FF;" d="M396.116,149.537c-1.291,0-2.567,0.072-3.824,0.205c-3.184-14.446-15.722-25.381-30.944-26.114 c-5.289-21.968-25.055-38.295-48.645-38.295c-0.131,0-0.259,0.007-0.388,0.009v135.982h83.802c19.823,0,35.893-16.07,35.893-35.893 S415.94,149.537,396.116,149.537z"></path> <path style="fill:#31BAFD;" d="M325.974,285.499c35.523,0,64.319-28.796,64.319-64.321c0-35.523-28.796-64.319-64.319-64.319 c-8.097,0-15.838,1.51-22.974,4.241c-6.375-28.813-32.054-50.371-62.785-50.371c-30.318,0-55.72,20.982-62.517,49.214 c-19.563,0.941-35.676,14.995-39.769,33.561c-1.615-0.171-3.253-0.264-4.913-0.264c-25.476,0-46.128,20.652-46.128,46.128 c0,25.476,20.652,46.128,46.128,46.128h192.958V285.499z"></path> <g> <path style="fill:#2B9ED8;" d="M325.974,156.86c-8.097,0-15.838,1.51-22.974,4.241c-6.375-28.813-32.054-50.371-62.785-50.371 c-0.295,0-0.586,0.016-0.879,0.019v174.749h86.638c35.523,0,64.321-28.796,64.321-64.321 C390.295,185.656,361.497,156.86,325.974,156.86z"></path> <path style="fill:#2B9ED8;" d="M300.822,338.182c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0c1.683,1.684,1.684,4.411,0,6.094l-32.754,32.754 C303.027,337.761,301.926,338.182,300.822,338.182z"></path> <path style="fill:#2B9ED8;" d="M247.955,338.182c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0s1.684,4.411,0,6.094l-32.754,32.754C250.16,337.761,249.059,338.182,247.955,338.182z"></path> <path style="fill:#2B9ED8;" d="M195.09,338.182c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0s1.684,4.411,0,6.094l-32.754,32.754C197.295,337.761,196.193,338.182,195.09,338.182z"></path> <path style="fill:#2B9ED8;" d="M142.223,338.182c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0s1.684,4.411,0,6.094l-32.754,32.754C144.428,337.761,143.326,338.182,142.223,338.182z"></path> <path style="fill:#2B9ED8;" d="M300.822,399.381c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0c1.683,1.684,1.684,4.411,0,6.094l-32.754,32.754C303.027,398.96,301.926,399.381,300.822,399.381 z"></path> <path style="fill:#2B9ED8;" d="M247.955,399.381c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0s1.684,4.411,0,6.094l-32.754,32.754C250.16,398.96,249.059,399.381,247.955,399.381z"></path> <path style="fill:#2B9ED8;" d="M195.09,399.381c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0s1.684,4.411,0,6.094l-32.754,32.754C197.295,398.96,196.193,399.381,195.09,399.381z"></path> <path style="fill:#2B9ED8;" d="M142.223,399.381c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0s1.684,4.411,0,6.094l-32.754,32.754C144.428,398.96,143.326,399.381,142.223,399.381z"></path> </g> </g></svg>
+                        <svg height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.002 512.002" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#CFDBE6;" cx="256.001" cy="256" r="256"></circle> <path style="fill:#B8C9D9;" d="M512.001,256c0-1.641-0.031-3.277-0.062-4.911l-86.874-86.874l-4.098,6.785l-37.397-37.397 l-0.771,1.14l-35.821-35.821L195.924,206.583l-95.525,65.407l53.064,52.627l-14.284,12.303l30.163,30.163l-30.163,31.035 l113.845,113.845c0.993,0.012,1.984,0.038,2.981,0.038C397.385,512,512.001,397.384,512.001,256z"></path> <path style="fill:#FFFFFF;" d="M245.971,221.324c-27.641,0-50.048-22.407-50.048-50.048s22.407-50.048,50.048-50.048 c6.301,0,12.324,1.176,17.877,3.301c4.961-22.421,24.943-39.195,48.855-39.195c23.59,0,43.356,16.327,48.647,38.293 c15.222,0.733,27.76,11.667,30.944,26.114c1.257-0.133,2.531-0.205,3.824-0.205c19.823,0,35.893,16.07,35.893,35.893 s-16.07,35.893-35.893,35.893L245.971,221.324z"></path> <path style="fill:#E6F3FF;" d="M396.116,149.537c-1.291,0-2.567,0.072-3.824,0.205c-3.184-14.446-15.722-25.381-30.944-26.114 c-5.289-21.968-25.055-38.295-48.645-38.295c-0.131,0-0.259,0.007-0.388,0.009v135.982h83.802c19.823,0,35.893-16.07,35.893-35.893 S415.94,149.537,396.116,149.537z"></path> <path style="fill:#31BAFD;" d="M325.974,285.499c35.523,0,64.319-28.796,64.319-64.321c0-35.523-28.796-64.319-64.319-64.319 c-8.097,0-15.838,1.51-22.974,4.241c-6.375-28.813-32.054-50.371-62.785-50.371c-30.318,0-55.72,20.982-62.517,49.214 c-19.563,0.941-35.676,14.995-39.769,33.561c-1.615-0.171-3.253-0.264-4.913-0.264c-25.476,0-46.128,20.652-46.128,46.128 c0,25.476,20.652,46.128,46.128,46.128h192.958V285.499z"></path> <g> <path style="fill:#2B9ED8;" d="M325.974,156.86c-8.097,0-15.838,1.51-22.974,4.241c-6.375-28.813-32.054-50.371-62.785-50.371 c-0.295,0-0.586,0.016-0.879,0.019v174.749h86.638c35.523,0,64.321-28.796,64.321-64.321 C390.295,185.656,361.497,156.86,325.974,156.86z"></path> <path style="fill:#2B9ED8;" d="M300.822,338.182c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0c1.683,1.684,1.684,4.411,0,6.094l-32.754,32.754 C303.027,337.761,301.926,338.182,300.822,338.182z"></path> <path style="fill:#2B9ED8;" d="M247.955,338.182c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0s1.684,4.411,0,6.094l-32.754,32.754C250.16,337.761,249.059,338.182,247.955,338.182z"></path> <path style="fill:#2B9ED8;" d="M195.09,338.182c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0s1.684,4.411,0,6.094l-32.754,32.754C197.295,337.761,196.193,338.182,195.09,338.182z"></path> <path style="fill:#2B9ED8;" d="M142.223,338.182c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0s1.684,4.411,0,6.094l-32.754,32.754C144.428,337.761,143.326,338.182,142.223,338.182z"></path> <path style="fill:#2B9ED8;" d="M300.822,399.381c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0c1.683,1.684,1.684,4.411,0,6.094l-32.754,32.754C303.027,398.96,301.926,399.381,300.822,399.381 z"></path> <path style="fill:#2B9ED8;" d="M247.955,399.381c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0s1.684,4.411,0,6.094l-32.754,32.754C250.16,398.96,249.059,399.381,247.955,399.381z"></path> <path style="fill:#2B9ED8;" d="M195.09,399.381c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0s1.684,4.411,0,6.094l-32.754,32.754C197.295,398.96,196.193,399.381,195.09,399.381z"></path> <path style="fill:#2B9ED8;" d="M142.223,399.381c-1.103,0-2.205-0.421-3.048-1.262c-1.684-1.684-1.684-4.411,0-6.094l32.754-32.754 c1.684-1.684,4.411-1.684,6.094,0s1.684,4.411,0,6.094l-32.754,32.754C144.428,398.96,143.326,399.381,142.223,399.381z"></path> </g> </g></svg>
 
-                    <h4 class="card-name">Water Resistant</h4>
-                    <p class="text">Ready for workouts, rain, and swimming.</p>
-                </div>
-                <div class="card">
+                        <h4 class="card-name">Water Resistant</h4>
+                        <p class="text">Ready for workouts, rain, and swimming.</p>
+                    </div>
+                    <div class="card">
 
-                    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Bluetooth" role="img" viewBox="0 0 512 512" width="64px" height="64px" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%" fill="#0082FC"></rect><path fill="none" stroke="#ffffff" stroke-width="33" d="M151 154l190 191-87 90V78l87 93-190 192"></path></g></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-label="Bluetooth" role="img" viewBox="0 0 512 512" width="64px" height="64px" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%" fill="#0082FC"></rect><path fill="none" stroke="#ffffff" stroke-width="33" d="M151 154l190 191-87 90V78l87 93-190 192"></path></g></svg>
 
-                    <h4 class="card-name">Bluetooth Calling</h4>
-                    <p class="text">Take calls directly from your wrist.</p>
+                        <h4 class="card-name">Bluetooth Calling</h4>
+                        <p class="text">Take calls directly from your wrist.</p>
+                    </div>
                 </div>
             </section>
 
@@ -130,9 +173,9 @@
                     Premium Design.<br>Powerful Performance.
                 </h2>
 
-                <p class="description">Crafted with an aluminum alloy frame,</p>
-                <p class="description">edge-to-edge display, and premium silicone strap,</p>
-                <p class="description">NEXTH is built for style and durability.</p>
+                <p class="description">Crafted with an aluminum alloy frame,
+                edge-to-edge display, and premium silicone strap,
+                NEXTH is built for style and durability.</p>
             </section>
 
             <!--SPECIFICATIONS SECTION-->
@@ -179,54 +222,70 @@
             <section class="reviews" id="reviews">
                 <h2>Loved by Thousands</h2>
 
-                <div class="review-card">
-                    <span class="star">⭐⭐⭐⭐⭐</span>
+                <div class="review-container">
+                    <div class="review-card">
+                        <span class="star">⭐⭐⭐⭐⭐</span>
 
-                    <blockquote>
-                        <p>Absolutely love the battery life. The display is gorgeous.</p>
-                        <footer>— Alex Morgan</footer>
-                    </blockquote>
-                </div>
-                <div class="review-card">
-                    <span class="star">⭐⭐⭐⭐⭐</span>
+                        <blockquote>
+                            <p>Absolutely love the battery life. The display is gorgeous.</p>
+                            <footer>— Alex Morgan</footer>
+                        </blockquote>
+                    </div>
+                    <div class="review-card">
+                        <span class="star">⭐⭐⭐⭐⭐</span>
 
-                    <blockquote>
-                        <p>The best smartwatch I've owned under this price.</p>
-                        <footer>— Sarah Wilson</footer>
-                    </blockquote>
-                </div>
-                <div class="review-card">
-                    <span class="star">⭐⭐⭐⭐</span>
+                        <blockquote>
+                            <p>The best smartwatch I've owned under this price.</p>
+                            <footer>— Sarah Wilson</footer>
+                        </blockquote>
+                    </div>
+                    <div class="review-card">
+                        <span class="star">⭐⭐⭐⭐</span>
 
-                    <blockquote>
-                        <p>Looks premium and performs flawlessly.</p>
-                        <footer>— David Brown</footer>
-                    </blockquote>
+                        <blockquote>
+                            <p>Looks premium and performs flawlessly.</p>
+                            <footer>— David Brown</footer>
+                        </blockquote>
+                    </div>
                 </div>
             </section>
 
             <!--PRICING-->
             <section class="pricing" id="pricing">
                 <h3>NEXTH Smartwatch</h3>
-                <h2 class="price">8,999</h2>
+                <p class="price-tag">
+                    <span class="price">Price:</span>
+                    <span class="value">8,999</span>
+                </p>
 
-                <p class="feat">AMOLED Display</p>
-                <p class="feat">Bluetooth Calling</p>
-                <p class="feat">Health Monitoring</p>
-                <p class="feat">Fast Charging</p>
+                <div class="availability">
+                    <p>Available Colours</p>
+                    <ul>
+                        <li class="black"></li>
+                        <li class="blue"></li>
+                        <li class="white"></li>
+                    </ul>
+                </div>
+
+                <ul class="feat">
+                    <li>AMOLED Display</li>
+                    <li>Bluetooth Calling</li>
+                    <li>Health Monitoring</li>
+                    <li>Fast Charging</li>
+                </ul>
 
                 <button class="buy">Buy Now</button>
             </section>
 
             <section class="faq" id="faq">
-                <p class="ques">How long does the battery last?</p>
-                <p class="ans">Up to 10 days on normal usage.</p>
+                <details>How long does the battery last?</details> 
+                <summary>Up to 10 days on normal usage.</summary> 
 
-                <p class="ques">Is it waterproof?</p>
-                <p class="ans">Yes, it has a 5 ATM rating.</p>
+                <details>Is it waterproof?</details>
+                <summary>Yes, it has a 5 ATM rating.</summary> 
 
-                <p class="ques">Does it work with iPhone?</p>
-                <p class="ans">Yes. It supports both Android and iOS.</p>
+                <details>Does it work with iPhone?</details>
+                <summary>Yes. It supports both Android and iOS.</summary> 
             </section>
 
             <!--CTA-->
@@ -237,10 +296,10 @@
                 <p>NEXTH to stay connected,</p>
                 <p>healthy, and productive.</p>
 
-                <a href="#">
+                <a href="#" class="cta-btn">
                     <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g clip-path="url(#clip0_15_35)"> <rect width="24" height="24" fill="white"></rect> <path d="M5.33331 6H19.8672C20.4687 6 20.9341 6.52718 20.8595 7.12403L20.1095 13.124C20.0469 13.6245 19.6215 14 19.1172 14H16.5555H9.44442H7.99998" stroke="#000000" stroke-linejoin="round"></path> <path d="M2 4H4.23362C4.68578 4 5.08169 4.30341 5.19924 4.74003L8.30076 16.26C8.41831 16.6966 8.81422 17 9.26638 17H19" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> <circle cx="10" cy="20" r="1" stroke="#000000" stroke-linejoin="round"></circle> <circle cx="17.5" cy="20" r="1" stroke="#000000" stroke-linejoin="round"></circle> </g> <defs> <clipPath id="clip0_15_35"> <rect width="24" height="24" fill="white"></rect> </clipPath> </defs> </g></svg>
 
-                    <p>Order Yours Today</p>
+                    <span>Order Yours Today</span>
                 </a>
             </section>
         </main>
