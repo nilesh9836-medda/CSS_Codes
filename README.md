@@ -28,13 +28,13 @@
 18. **[Build a Quiz Webpage](./projects/quiz-webpage/)**
 19. **[Build a Tribute Webpage](./projects/tribute-page/)**
 20. **[Build a Cat Painting](./projects/cat-painting/)**
-21. **[Build a House Painting](/projects/house-painting/)**
-22. **[Build a Balance Sheet](/projects/balance-sheet/)**
-23. **[Build a Book Inventory App](/projects/book-inventory/)**
-24. **[Design a Piano](/projects/piano/)**
-25. **[Build a Technical Documentation Page](/projects/technical-documentation-page/)**
-26. **[Build a City Skyline](/projects/city-skyline/)**
-27. **[Build an Availability Table](/projects/availability-table/)**
-28. **[Build a Magazine](/projects/magazine/)**
-29. **[Design a Newspaper Layout](/projects/newspaper-layout/)**
-30. **[Build an Animated Ferris Wheel](/projects/animated-ferris-wheel/)**
+21. **[Build a House Painting](./projects/house-painting/)**
+22. **[Build a Balance Sheet](./projects/balance-sheet/)**
+23. **[Build a Book Inventory App](./projects/book-inventory/)**
+24. **[Design a Piano](./projects/piano/)**
+25. **[Build a Technical Documentation Page](./projects/technical-documentation-page/)**
+26. **[Build a City Skyline](./projects/city-skyline/)**
+27. **[Build an Availability Table](./projects/availability-table/)**
+28. **[Build a Magazine](./projects/magazine/)**
+29. **[Design a Newspaper Layout](./projects/newspaper-layout/)**
+30. **[Build an Animated Ferris Wheel](./projects/animated-ferris-wheel/)**
