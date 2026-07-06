@@ -4,17 +4,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/styles/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">   
+        <link rel="stylesheet" href="./assets/styles/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">      
 
         <title>A New Futuristic Wristwatch | NEXTH</title>
     </head>
 
     <body>
         <header id="header">
-            <nav>
+            <nav id="navbar" class="navbar">
                 <a href="#" title="nexth.org" class="brand">
-                    <img src="https://www.image2url.com/r2/default/images/1783146435058-47c1a449-1e4f-4779-960d-cffdcbc0d0ae.png" alt="NEXTH">
+                    <img src="./assets/images/nexth-name.webp" alt="NEXTH">
                 </a>
 
                 <button id="hamburger"></button>
@@ -26,6 +29,7 @@
                     <li><a href="#reviews">Reviews</a></li>
                     <li><a href="#pricing">Pricing</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                 </ul>
 
                 <button class="buy">Buy Now</button>
@@ -39,15 +43,15 @@
                 <div class="hero-content">
                     <span class="tag">New Arrival</span>
 
-                    <h2 class="main-heading">
+                    <h1 class="main-heading">
                         The Future<br>On Your Wrist
-                    </h2>
+                    </h1>
 
                     <p class="description">
                         Experience premium craftsmanship, advanced health tracking, and all-day battery life in one elegant smartwatch. Designed to keep up with your lifestyle.
                     </p>
 
-                    <h3>NEXTH Smartwatch</h3>
+                    <h2 class="brand-tag">NEXTH Smartwatch</h2>
                     <p class="price-tag">
                         <span class="price">Price:</span>
                         <span class="value">8,999</span>
@@ -58,7 +62,7 @@
                         <ul>
                             <li class="black"></li>
                             <li class="blue"></li>
-                            <li class="white"></li>
+                            <li class="grey"></li>
                         </ul>
                     </div>
 
@@ -69,7 +73,7 @@
                 </div>
 
                 <figure class="hero-image">
-                    <img src="https://www.image2url.com/r2/default/images/image-to-webp-1783107619199-fcf92a1f-4a42-4013-8ac6-8598d8c21d9f.webp" alt="Futuristic and stylist wristwatch of NEXTH">
+                    <img src="./assets/images/watch.png" alt="Futuristic and stylist wristwatch of NEXTH">
                 </figure>
             </section>
 
@@ -252,7 +256,7 @@
 
             <!--PRICING-->
             <section class="pricing" id="pricing">
-                <h3>NEXTH Smartwatch</h3>
+                <h3 class="brand-tag">NEXTH Smartwatch</h3>
                 <p class="price-tag">
                     <span class="price">Price:</span>
                     <span class="value">8,999</span>
@@ -278,14 +282,20 @@
             </section>
 
             <section class="faq" id="faq">
-                <details>How long does the battery last?</details> 
-                <summary>Up to 10 days on normal usage.</summary> 
+                <details>
+                    <summary>How long does the battery last? </summary>
+                    <p>Up to 10 days on normal usage.</p> 
+                </details>
 
-                <details>Is it waterproof?</details>
-                <summary>Yes, it has a 5 ATM rating.</summary> 
+                <details>
+                    <summary>Is it waterproof?</summary>
+                    <p>Yes, it has a 5 ATM rating.</p>
+                </details> 
 
-                <details>Does it work with iPhone?</details>
-                <summary>Yes. It supports both Android and iOS.</summary> 
+                <details>
+                    <summary>Does it work with iPhone?</summary>
+                    <p>Yes. It supports both Android and iOS.</p> 
+                </details>
             </section>
 
             <!--CTA-->
