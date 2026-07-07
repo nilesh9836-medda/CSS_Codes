@@ -378,7 +378,6 @@ STATISTICS SECTION
 
 .stat-card:hover {
   transform: translateY(-2px);
-  color: hsl(358, 100%, 28%); /*Not working*/
   box-shadow: 0 5px 3px 1.5px rgba(0,0,0,0.4);
 }
 
@@ -410,7 +409,7 @@ TRUSTED BY SECTION
 section.trusted-by {
   background: linear-gradient(to right bottom, white 10%, #f2f2f2 100%);
   margin-top: 30px;
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
   padding: 40px 10%;
 }
 
@@ -447,3 +446,85 @@ section.trusted-by {
 /*================
 Features Section
 ===============*/
+
+.features {
+  padding: 7rem 8%;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+  height: auto;
+}
+
+.features h2 {
+  font-size: 4rem;
+}
+
+.features .grid-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 10rem;
+  row-gap: 5.5rem;
+  margin: auto;
+  
+}
+
+.grid-card .card {
+  width: 40rem;
+  height: 25rem;
+  max-width: 40rem;
+  max-height: 25rem;
+  align-self: center;
+  background-color: white;
+  border-radius: 2.4rem;
+  padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.grid-card .card:hover {
+  transform: translateY(-5px);
+}
+
+/*.grid-card .card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); 
+  transform: scale(0.8); 
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  z-index: -1;
+  opacity: 0;
+}
+
+.card:hover::after {
+  opacity: 1; 
+  transform: scale(1.05);
+}*/
+
+
+.card svg {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1.4rem;
+}
+
+.card .card-name {
+  margin-bottom: 1.6rem;
+  font-size: 2.2rem;
+}
+
+.card .text {
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.8;
+}
