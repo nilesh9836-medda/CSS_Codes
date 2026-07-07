@@ -226,7 +226,7 @@ HERO SECTION STYLE
   color: #111111;
 }
 
-.description {
+.hero .description {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.7;
