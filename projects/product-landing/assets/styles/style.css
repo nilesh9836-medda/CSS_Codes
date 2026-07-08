@@ -620,6 +620,8 @@ Reviews
   height: 15rem;
   padding: 1.5rem 2.5rem;
   border-radius: 24px;
+  z-index: 1;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .review-card .star {
@@ -639,7 +641,6 @@ Reviews
   font-size: 1.2rem;
   color: grey;
   font-style: italic;
-  z-index: 1;
 }
 
 .review-card:hover {
