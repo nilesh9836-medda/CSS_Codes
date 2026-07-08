@@ -528,3 +528,65 @@ Features Section
   text-align: center;
   line-height: 1.8;
 }
+
+
+/*==============
+Specifications
+=============*/
+
+.specifications {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  gap: 50px;
+  padding: 10rem 5%;
+}
+
+.specifications figure > img {
+  position: relative;
+  height: 70rem;
+  top: -60px;
+  left: -30px;
+  transition: transform 0.3s ease;
+}
+
+.specifications figure > img:hover {
+  transform: translateY(-5px);
+}
+
+.specific-desc h2 {
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.specific-desc p {
+  font-size: 2rem;
+  line-height: 1.8;
+  color: hsl(0, 0%, 36%);
+  margin-bottom: 4rem;
+}
+
+.specific-desc ul {
+  list-style: none;
+}
+
+.specific-desc ul > li {
+  font-size: 2rem;
+  line-height: 2;
+  color: hsl(0, 0%, 36%);
+}
+
+li.warranty {
+  font-weight: 600;
+}
+
+.specific-desc li::before {
+  content: "\2713";
+  position: relative;
+  left: 0;
+  padding: 2px 5px;
+  background-color: #c62828;
+  color: white;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
